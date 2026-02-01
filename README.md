@@ -266,7 +266,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 👨‍💻 Author
 
-Your Name - [Ha Minh Dung](https://github.com/HaMinhDung)
+[Ha Minh Dung](https://github.com/HaMinhDung)
 
 ## 🙏 Acknowledgments
 
