@@ -40,6 +40,9 @@ build/
 .env.local
 .env.*.local
 
+# Local config overrides (optional)
+config.local.js
+
 # Archives
 *.zip
 *.crx

@@ -259,13 +259,16 @@ async function processText(text, prompt) {
   `;
   
   try {
-    const backendUrl = 'https://ai-extension-api.duckdns.org';
+    // Get backend URL from config
+    const backendUrl = window.AI_EXTENSION_CONFIG?.BACKEND_URL || 'https://ai-extension-api.duckdns.org';
+    const apiEndpoint = window.AI_EXTENSION_CONFIG?.API?.GENERATE || '/api/generate';
+    const fullUrl = `${backendUrl}${apiEndpoint}`;
     
-    console.log('🔄 Sending request to:', `${backendUrl}/api/generate`);
+    console.log('🔄 Sending request to:', fullUrl);
     console.log('📝 Request body:', { text, prompt });
     
     // Call AI API
-    const response = await fetch(`${backendUrl}/api/generate`, {
+    const response = await fetch(fullUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json; charset=UTF-8'

@@ -130,6 +130,7 @@ const response = await fetch(`${backendUrl}/api/generate`, {
 ```
 ai-assistant-extension/
 ├── manifest.json          # Extension configuration
+├── config.js              # Configuration (backend URL, settings)
 ├── background.js          # Service worker (background script)
 ├── content.js            # Content script (injected into pages)
 ├── popup.html            # Settings popup UI
@@ -192,11 +193,18 @@ public ResponseEntity<Map<String, String>> generate(
 
 ### Update Backend URL
 
-If your backend URL is different, update it in [content.js](content.js#L263):
+If your backend URL is different, edit [config.js](config.js):
 
 ```javascript
-const backendUrl = 'https://your-backend-url.com';
+const CONFIG = {
+  BACKEND_URL: 'https://your-backend-url.com',
+  API: {
+    GENERATE: '/api/generate'
+  }
+};
 ```
+
+You can also create `config.local.js` for local development (this file is gitignored).
 
 ## 🐛 Troubleshooting
 
