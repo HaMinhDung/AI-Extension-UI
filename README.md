@@ -20,7 +20,7 @@ A powerful Chrome extension that processes selected text using AI. Select any te
 ### Prerequisites
 
 - Google Chrome or Chromium-based browser (Edge, Brave, etc.)
-- Backend server running (see [Backend Setup](#backend-setup))
+- Backend server running (see [Backend Setup](https://github.com/HaMinhDung/AI_Extension))
 
 ### Installation
 
@@ -266,7 +266,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 👨‍💻 Author
 
-Your Name - [GitHub Profile](https://github.com/yourusername)
+Your Name - [GitHub Profile](https://github.com/HaMinhDung)
 
 ## 🙏 Acknowledgments
 
