@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "AI Assistant Extension",
+  "version": "1.0.0",
+  "description": "Process selected text with AI based on your custom prompt",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "contextMenus",
+    "notifications"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "https://ai-extension-api.duckdns.org/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

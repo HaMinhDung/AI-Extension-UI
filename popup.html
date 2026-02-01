@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Translator Settings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>🌐 AI Assistant</h1>
+    </div>
+
+    <!-- Translation Controls -->
+    <div class="settings">
+      <!-- Instructions -->
+      <div class="setting-item">
+        <div style="padding: 10px; background: #e3f2fd; border-radius: 5px; margin-bottom: 10px;">
+          <strong>How to use:</strong><br>
+          1. Select text<br>
+          2. Right-click<br>
+          3. Choose "Process with AI"<br>
+          4. AI will respond based on your prompt
+        </div>
+      </div>
+
+      <!-- Default Prompt -->
+      <div class="setting-item">
+        <label for="defaultPrompt">Default Prompt</label>
+        <textarea id="defaultPrompt" rows="4" placeholder="Example: Translate to Vietnamese"></textarea>
+        <span class="helper-text">This prompt will be used by default. You can change it each time.</span>
+      </div>
+
+      <!-- Save Settings Button -->
+      <div class="setting-item">
+        <button id="saveBtn" class="btn-secondary">💾 Save Settings</button>
+      </div>
+
+      <!-- Status Message -->
+      <div id="statusMessage" class="status-message"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
