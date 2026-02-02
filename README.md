@@ -8,7 +8,7 @@ A powerful Chrome extension that processes selected text using AI. Select any te
 
 ## 🎥 Demo
 
-Watch the demo video: [https://youtu.be/6_WL4qVrb40?si=ReyAdNZL0VCRNUtC](https://youtu.be/6_WL4qVrb40?si=ReyAdNZL0VCRNUtC)  
+Watch the demo video: [https://youtu.be/6_WL4qVrb40?si=ReyAdNZL0VCRNUtC](https://www.youtube.com/watch?v=6_WL4qVrb40)  
 
 ## ✨ Features
 
