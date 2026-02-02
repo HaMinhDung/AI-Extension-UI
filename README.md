@@ -1,57 +1,61 @@
-﻿# 🤖 AI Assistant Chrome Extension
+# 🤖 AI Assistant Chrome Extension
 
-A powerful Chrome extension that processes selected text using AI. Select any text on any webpage, right-click, and let AI help you translate, summarize, explain, or transform it based on your custom prompts.
+A powerful Chrome extension that processes selected text using AI. Select any text on any webpage, right-click, and let AI help you translate, summarize, explain, or transform it based on your cust[...]  
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-yellow)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)  
+![License](https://img.shields.io/badge/license-MIT-green)  
+![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-yellow)  
+
+## 🎥 Demo
+
+Watch the demo video: [https://youtu.be/6_WL4qVrb40?si=ReyAdNZL0VCRNUtC](https://youtu.be/6_WL4qVrb40?si=ReyAdNZL0VCRNUtC)  
 
 ## ✨ Features
 
-- 🎯 **Context Menu Integration** - Right-click on any selected text to process
-- 🚀 **Custom AI Prompts** - Use any prompt: translate, summarize, explain, rewrite, etc.
-- ⚡ **Fast & Responsive** - Get AI results in seconds
-- 🎨 **Beautiful UI** - Modern, intuitive popup interface
-- 💾 **Persistent Settings** - Your default prompt is saved automatically
-- 🔒 **Privacy Focused** - Text processed securely via backend API
+- 🎯 **Context Menu Integration** - Right-click on any selected text to process  
+- 🚀 **Custom AI Prompts** - Use any prompt: translate, summarize, explain, rewrite, etc.  
+- ⚡ **Fast & Responsive** - Get AI results in seconds  
+- 🎨 **Beautiful UI** - Modern, intuitive popup interface  
+- 💾 **Persistent Settings** - Your default prompt is saved automatically  
+- 🔒 **Privacy Focused** - Text processed securely via backend API  
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-- Google Chrome or Chromium-based browser (Edge, Brave, etc.)
-- Backend server running (see [Backend Setup](https://github.com/HaMinhDung/AI_Extension))
+- Google Chrome or Chromium-based browser (Edge, Brave, etc.)  
+- Backend server running (see [Backend Setup](https://github.com/HaMinhDung/AI_Extension))  
 
 ### Installation
 
-1. **Clone the repository**
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/yourusername/ai-assistant-extension.git
    cd ai-assistant-extension
-   ```
+   ```  
 
-2. **Load extension in Chrome**
-   - Open Chrome and navigate to `chrome://extensions/`
-   - Enable **Developer mode** (toggle in top-right corner)
-   - Click **Load unpacked**
-   - Select this extension folder
-   - The extension icon will appear in your toolbar
+2. **Load extension in Chrome**  
+   - Open Chrome and navigate to `chrome://extensions/`  
+   - Enable **Developer mode** (toggle in top-right corner)  
+   - Click **Load unpacked**  
+   - Select this extension folder  
+   - The extension icon will appear in your toolbar  
 
-3. **Configure settings (optional)**
-   - Click the extension icon in Chrome toolbar
-   - Set your default prompt (e.g., "Translate to Vietnamese")
-   - Click **Save Settings**
+3. **Configure settings (optional)**  
+   - Click the extension icon in Chrome toolbar  
+   - Set your default prompt (e.g., "Translate to Vietnamese")  
+   - Click **Save Settings**  
 
 ### Usage
 
-1. **Select any text** on any webpage
-2. **Right-click** to open context menu
-3. **Click "Process with AI"**
-4. **Enter or modify your prompt** in the popup
-5. **Click "🚀 Process with AI"** button
-6. **View the result** instantly
+1. **Select any text** on any webpage  
+2. **Right-click** to open context menu  
+3. **Click "Process with AI"**  
+4. **Enter or modify your prompt** in the popup  
+5. **Click "🚀 Process with AI"** button  
+6. **View the result** instantly  
 
-**Keyboard shortcut:** Press `Ctrl+Enter` in the prompt field to submit
+**Keyboard shortcut:** Press `Ctrl+Enter` in the prompt field to submit  
 
 ## 🎯 Example Prompts
 
@@ -247,7 +251,8 @@ You can also create `config.local.js` for local development (this file is gitign
 Use the included PowerShell script to check backend connectivity:
 
 ```powershell
-.\check-backend.ps1
+.
+check-backend.ps1
 ```
 
 ## 📝 License
